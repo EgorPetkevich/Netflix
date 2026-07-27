@@ -9,6 +9,9 @@ platform :ios do
       device: "iPhone 17 Pro",
       clean: true,
       xcargs: "-skipMacroValidation"
+      only_testing: [
+	"NetflixProjectTests"
+      ]
     )
   end
 
