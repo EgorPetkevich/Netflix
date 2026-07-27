@@ -1,0 +1,46 @@
+name: iOS CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: macos-26
+
+    defaults:
+      run:
+        working-directory: NetflixProject
+
+    env:
+      FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT: 120
+      FASTLANE_XCODEBUILD_SETTINGS_RETRIES: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Install tools
+        run: |
+          brew install swiftlint
+          brew install swiftgen
+
+      - name: Install Ruby dependencies
+        run: bundle install
+
+      - name: Run Fastlane CI
+        run: bundle exec fastlane ci
+
+      - name: Upload test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fastlane-test-output
+          path: NetflixProject/fastlane/test_output
