@@ -8,21 +8,24 @@ platform :ios do
       scheme: "NetflixProject",
       device: "iPhone 17 Pro",
       clean: true,
-      xcargs: "-skipMacroValidation"
+      xcargs: "-skipMacroValidation",
       only_testing: [
-	"NetflixProjectTests"
+        "NetflixProjectTests"
       ]
     )
   end
 
-  desc "Run CI: tests + debug build"
+  desc "Run CI: unit tests + debug build"
   lane :ci do
     scan(
       project: "NetflixProject.xcodeproj",
       scheme: "NetflixProject",
       device: "iPhone 17 Pro",
       clean: true,
-      xcargs: "-skipMacroValidation"
+      xcargs: "-skipMacroValidation",
+      only_testing: [
+        "NetflixProjectTests"
+      ]
     )
 
     build_ios_app(
