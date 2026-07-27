@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build-and-test:
@@ -34,6 +35,15 @@ jobs:
 
       - name: Install Ruby dependencies
         run: bundle install
+
+      - name: Fix TCA package URL
+        run: |
+          sed -i '' \
+            's|https://github.com/pointfreeco/swift-composable-architecture?tab=readme-ov-file|https://github.com/pointfreeco/swift-composable-architecture.git|g' \
+            NetflixProject.xcodeproj/project.pbxproj
+
+          grep -n "swift-composable-architecture" \
+            NetflixProject.xcodeproj/project.pbxproj
 
       - name: Run Fastlane CI
         run: bundle exec fastlane ci

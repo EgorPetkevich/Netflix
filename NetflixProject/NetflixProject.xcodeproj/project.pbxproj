@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F23BA7162F88E6010035D8F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F23BA7152F88E6010035D8F8 /* Kingfisher */; };
-		F25123EB2F9640E300324F1D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F25123EA2F9640E300324F1D /* ComposableArchitecture */; };
 		F26AB3902F758C4500554A16 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB38F2F758C4500554A16 /* SnapKit */; };
 		F26AB3932F758C5B00554A16 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB3922F758C5B00554A16 /* RxCocoa */; };
 		F26AB3952F758C5B00554A16 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB3942F758C5B00554A16 /* RxSwift */; };
@@ -22,6 +21,7 @@
 		F2ACFFA52F7BFDD700FA3E23 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACFFA42F7BFDD700FA3E23 /* Lottie */; };
 		F2C51DA62F9F97D800E34371 /* Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C51DA02F9F97D800E34371 /* Storage.framework */; };
 		F2C51DA82F9F97D800E34371 /* Storage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2C51DA02F9F97D800E34371 /* Storage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2C5D4D33017618600858D42 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F2C5D4D23017618600858D42 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,11 +138,11 @@
 			files = (
 				F2ACFFA52F7BFDD700FA3E23 /* Lottie in Frameworks */,
 				F297DD992FA8A86F00A12758 /* FirebaseFirestore in Frameworks */,
+				F2C5D4D33017618600858D42 /* ComposableArchitecture in Frameworks */,
 				F297DD932FA8A86F00A12758 /* FirebaseAuth in Frameworks */,
 				F297DD952FA8A86F00A12758 /* FirebaseCore in Frameworks */,
 				F26AB3952F758C5B00554A16 /* RxSwift in Frameworks */,
 				F2C51DA62F9F97D800E34371 /* Storage.framework in Frameworks */,
-				F25123EB2F9640E300324F1D /* ComposableArchitecture in Frameworks */,
 				F297DD972FA8A86F00A12758 /* FirebaseDatabase in Frameworks */,
 				F2AC001B2F7D0B6000FA3E23 /* GoogleSignInSwift in Frameworks */,
 				F26AB3932F758C5B00554A16 /* RxCocoa in Frameworks */,
@@ -255,12 +255,12 @@
 				F2AC00182F7D0B6000FA3E23 /* GoogleSignIn */,
 				F2AC001A2F7D0B6000FA3E23 /* GoogleSignInSwift */,
 				F23BA7152F88E6010035D8F8 /* Kingfisher */,
-				F25123EA2F9640E300324F1D /* ComposableArchitecture */,
 				F297DD922FA8A86F00A12758 /* FirebaseAuth */,
 				F297DD942FA8A86F00A12758 /* FirebaseCore */,
 				F297DD962FA8A86F00A12758 /* FirebaseDatabase */,
 				F297DD982FA8A86F00A12758 /* FirebaseFirestore */,
 				F297DD9A2FA8A86F00A12758 /* FirebaseStorage */,
+				F2C5D4D23017618600858D42 /* ComposableArchitecture */,
 			);
 			productName = NetflixProject;
 			productReference = F24E142E2F755388001A9BCD /* NetflixProject.app */;
@@ -357,8 +357,8 @@
 				F2ACFFA32F7BFDD700FA3E23 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				F2AC00172F7D0B6000FA3E23 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				F23BA7142F88E6010035D8F8 /* XCRemoteSwiftPackageReference "kingfisher" */,
-				F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F2C5D4D13017618600858D42 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F24E142F2F755388001A9BCD /* Products */;
@@ -930,14 +930,6 @@
 				minimumVersion = 8.8.1;
 			};
 		};
-		F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.25.5;
-			};
-		};
 		F26AB38E2F758C4500554A16 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -978,6 +970,14 @@
 				minimumVersion = 4.6.0;
 			};
 		};
+		F2C5D4D13017618600858D42 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -985,11 +985,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F23BA7142F88E6010035D8F8 /* XCRemoteSwiftPackageReference "kingfisher" */;
 			productName = Kingfisher;
-		};
-		F25123EA2F9640E300324F1D /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
 		};
 		F26AB38F2F758C4500554A16 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1045,6 +1040,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F2ACFFA32F7BFDD700FA3E23 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		F2C5D4D23017618600858D42 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2C5D4D13017618600858D42 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
