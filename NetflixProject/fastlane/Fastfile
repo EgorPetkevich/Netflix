@@ -6,18 +6,20 @@ platform :ios do
     scan(
       project: "NetflixProject.xcodeproj",
       scheme: "NetflixProject",
-      device: "iPhone 16",
-      clean: true
+      device: "iPhone 17 Pro",
+      clean: true,
+      xcargs: "-skipMacroValidation"
     )
   end
 
-  desc "Run local CI: tests + debug build"
+  desc "Run CI: tests + debug build"
   lane :ci do
     scan(
       project: "NetflixProject.xcodeproj",
       scheme: "NetflixProject",
-      device: "iPhone 16",
-      clean: true
+      device: "iPhone 17 Pro",
+      clean: true,
+      xcargs: "-skipMacroValidation"
     )
 
     build_ios_app(
@@ -25,7 +27,10 @@ platform :ios do
       scheme: "NetflixProject",
       configuration: "Debug",
       clean: true,
-      skip_package_ipa: true
+      skip_package_ipa: true,
+      skip_codesigning: true,
+      xcargs: "-skipMacroValidation",
+      destination: "generic/platform=iOS Simulator"
     )
   end
 end
