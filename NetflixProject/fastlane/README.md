@@ -29,7 +29,7 @@ Run tests locally
 [bundle exec] fastlane ios ci
 ```
 
-Run local CI: tests + debug build
+Run CI: tests + debug build
 
 ----
 

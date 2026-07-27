@@ -10,12 +10,13 @@ platform :ios do
       clean: true,
       xcargs: "-skipMacroValidation",
       skip_testing: [
-        "NetflixProjectUITests"
+        "NetflixProjectUITests/HomeScreenUITests/test_homeTableView_hasContent",
+        "NetflixProjectUITests/HomeScreenUITests/test_tapFirstHomeItem_openDetailsScreen"
       ]
     )
   end
 
-  desc "Run CI: unit tests + debug build"
+  desc "Run CI: tests + debug build"
   lane :ci do
     scan(
       project: "NetflixProject.xcodeproj",
@@ -24,7 +25,8 @@ platform :ios do
       clean: true,
       xcargs: "-skipMacroValidation",
       skip_testing: [
-        "NetflixProjectUITests"
+        "NetflixProjectUITests/HomeScreenUITests/test_homeTableView_hasContent",
+        "NetflixProjectUITests/HomeScreenUITests/test_tapFirstHomeItem_openDetailsScreen"
       ]
     )
 
