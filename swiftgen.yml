@@ -1,0 +1,15 @@
+input_dir: NetflixProject/NetflixProject/Resources
+output_dir: NetflixProject/NetflixProject/Resources
+
+strings:
+  inputs:
+  - Localizations/en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: Localizations/Generated/Strings.swift
+fonts:
+  inputs:
+    - Fonts/Roboto
+  outputs:
+    templateName: swift5
+    output: Fonts/Generated/Fonts.swift

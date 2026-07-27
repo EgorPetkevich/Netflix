@@ -1,0 +1,25 @@
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
+Package.resolved
+
+# Build artifacts
+build/
+DerivedData/
+*.xcresult
+*.ipa
+*.dSYM.zip
+
+# Fastlane artifacts
+fastlane/report.xml
+fastlane/test_output/
+fastlane/logs/
+fastlane/screenshots/
+
+NetflixProject/fastlane/report.xml
+NetflixProject/fastlane/test_output/
+NetflixProject/fastlane/logs/
+NetflixProject/fastlane/screenshots/

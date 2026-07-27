@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

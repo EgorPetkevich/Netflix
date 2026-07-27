@@ -1,0 +1,135 @@
+
+//MARK: - Onboarding
+
+// First Page
+"onb_first_page_title" = "Trying to join NetflixDB?";
+"onb_first_page_subtitle" = "You can’t sign up for Netflix in the \n app. We know it’s a hassle. After \n you’re a member, you can start \n watching in the app. \n Scroll > to learn more";
+"onb_first_page_sign_in_button_title" = "SIGN IN";
+
+// Second Page
+"onb_second_page_title" = "That’s right!";
+"onb_second_page_subtitle" = "Please go to the movieDB website \n and create an account there";
+"onb_second_page_sing_in_button_title" = "SIGN IN";
+"onb_second_page_sign_up_button_title" = "SIGN UP";
+
+
+//MARK: - Auth
+
+// Login
+"auth_login_email_placeholder" = "E-mail";
+"auth_login_password_placeholder" = "Password";
+"auth_login_button" = "Login";
+"auth_login_guest_button" = "Guest Mode";
+"auth_login_show_button" = "SHOW";
+"auth_login_hide_button" = "HIDE";
+"auth_login_email_invalide" = "Email is invalid";
+"auth_login_password_invalide" = "Password is invalid";
+"auth_login_error_alert_title" = "Login error";
+"auth_login_error_alert_ok" = "Ok";
+"auth_login_error_alert_cancel" = "Try Again";
+"auth_login_dont_have_account" = "Don't have account?";
+"auth_login_sign_up_button" = "Sign Up";
+"auth_login_welcome_back" = "Welcome Back!";
+"auth_login_forgot_pass_button" = "Forgot password?";
+
+// Register
+"auth_register_create_account" = "Create Account";
+"auth_register_name_placeholder" = "Name";
+"auth_register_email_placeholder" = "E-mail";
+"auth_register_password_placeholder" = "Password";
+"auth_register_repeat_password_placeholder" = "Repeat Password";
+"auth_register_button" = "Register";
+"auth_register_email_invalide" = "Email is invalid";
+"auth_register_repeat_pass_invalide" = "Repeated Password is invalid";
+"auth_register_password_invalide" = "Password is invalid";
+"auth_register_pass_not_math" = "Password does not match";
+"auth_register_alert_success_title" = "Success";
+"auth_register_alert_success_message" = "You account has been successfuly created";
+"auth_register_already_have_account" = "Already have an account?";
+"auth_register_error_alert_title" = "Register error";
+"auth_register_error_alert_cancel" = "Try Again";
+
+// Reset
+"auth_reset_title" = "Reset Password";
+"auth_reset_button" = "Reset Password";
+"auth_reset_email_placeholder" = "E-mail";
+"auth_reset_cancel_button" = "Cancel";
+"auth_reset_email_invalide" = "Email is invalid";
+"authResetDescription" = "Enter your email address\nand we'll send you a link to\nreset your password.\nMake sure to check your inbox\nand spam folder if needed.";
+"auth_reset_error_alert_title" = "Error";
+"auth_reset_error_alert_cancel" = "Cancel";
+"auth_reset_error_alert_ok" = "Cancel";
+"auth_reset_success_alert_title" = "Success";
+"auth_reset_success_alert_message" = "Check your email";
+"auth_reset_success_alert_ok" = "OK";
+
+// Pin
+"auth_pin_enter_passcode" = "Enter Passcode";
+"auth_pin_confirm_pin" = "Confirm PIN";
+"auth_pin_create_pin" = "Create PIN";
+"auth_pin_create_new_passcode" = "Create a new passcode";
+"auth_pin_success" = "Success!";
+"auth_pin_face_id_failed" = "Face ID Not Recognized";
+"auth_pin_authenticating" = "Authenticating...";
+"auth_pin_incorrect_passcode" = "Incorrect Passcode";
+
+//MARK: - Main
+
+// Home
+"main_home_datails_button_title" = "See Details";
+"main_home_section_button_title" = "All";
+"main_home_cell_show_button_title" = "Show All";
+"main_home_alert_connection_title_error" = "Check Your Base Connection";
+"main_home_alert_connection_subtitle_error" = "If you are using a VPN, try turning it off or switching to a different server/country.";
+"main_home_alert_cancel" = "Cancel";
+"main_home_alert_try_again" = "Try again";
+
+
+// Search
+"main_search_title" = "Search";
+"main_search_filter_title" = "Filter";
+"main_search_error_alert_title" = "Error";
+"main_search_error_alert_try_again_title" = "Try Again";
+"main_search_error_alert_try_cancel_title" = "Cancel";
+
+// Profile
+"main_profile_stats_favorites" = "Favorites";
+"main_profile_stats_waiting" = "Waiting";
+"main_profile_stats_marked" = "Marked";
+"main_profile_menu_theme" = "Theme";
+"main_menu_notifications" = "Notifications";
+"main_menu_rate_app" = "Rate the app";
+"main_menu_support" = "Support";
+"main_logout_button" = "Log out";
+
+// Details
+"main_details_release_date" = "Release date";
+
+// Bookmark
+"main_bookmark_nav_title" = "Bookmarks";
+"main_bookmark_no_bookmarks_title" = "No bookmarks yet";
+"main_bookmark_no_bookmarks_subtitle" = "Items you mark as bookmark will appear here.";
+
+// Favorites
+"main_favorites_no_favorites_title" = "No favorites yet";
+"main_favorites_no_favorites_subtitle" = "Items you mark as favorites will appear here.";
+
+// Notifications
+"main_notifications" = "Notifications";
+"main_no_notifications" = "No notifications";
+"main_notification_error_sub_title" = "Subscribed movie release notifications will appear here.";
+"main_notifications_waitings" = "Waitings";
+"main_notifications_delivered" = "Delivered";
+
+// Paywall
+"paywall_title" = "Track movies,\nseries and stars";
+"paywall_subtitle" = "Get release notifications, follow trending content, explore details and save your favorites.";
+"paywall_feature_releases" = "Subscribe to upcoming releases";
+"paywall_feature_notifications" = "Get release notifications";
+"paywall_feature_trending" = "Explore trending movies and series";
+"paywall_feature_favorites" = "Like actors, movies and TV shows";
+"paywall_continue" = "Continue";
+"paywall_restore" = "Restore";
+"paywall_terms" = "Terms";
+"paywall_privacy" = "Privacy";
+"paywall_disclaimer" = "This app does not provide movie or TV show streaming.";

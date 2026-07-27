@@ -1,0 +1,31 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run tests locally"
+  lane :test do
+    scan(
+      project: "NetflixProject.xcodeproj",
+      scheme: "NetflixProject",
+      device: "iPhone 16",
+      clean: true
+    )
+  end
+
+  desc "Run local CI: tests + debug build"
+  lane :ci do
+    scan(
+      project: "NetflixProject.xcodeproj",
+      scheme: "NetflixProject",
+      device: "iPhone 16",
+      clean: true
+    )
+
+    build_ios_app(
+      project: "NetflixProject.xcodeproj",
+      scheme: "NetflixProject",
+      configuration: "Debug",
+      clean: true,
+      skip_package_ipa: true
+    )
+  end
+end

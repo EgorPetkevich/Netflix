@@ -1,0 +1,134 @@
+
+//MARK: - Onboarding
+
+// First Page
+"onb_first_page_title" = "Möchtest du NetflixDB beitreten?";
+"onb_first_page_subtitle" = "Du kannst dich nicht in der App bei Netflix registrieren. Wir wissen, dass das umständlich ist. Sobald du Mitglied bist, kannst du Inhalte in der App ansehen.\nScrolle > um mehr zu erfahren";
+"onb_first_page_sign_in_button_title" = "ANMELDEN";
+
+// Second Page
+"onb_second_page_title" = "Genau!";
+"onb_second_page_subtitle" = "Bitte gehe auf die movieDB-Website\nund erstelle dort ein Konto";
+"onb_second_page_sing_in_button_title" = "ANMELDEN";
+"onb_second_page_sign_up_button_title" = "REGISTRIEREN";
+
+
+//MARK: - Auth
+
+// Login
+"auth_login_email_placeholder" = "E-Mail";
+"auth_login_password_placeholder" = "Passwort";
+"auth_login_button" = "Anmelden";
+"auth_login_guest_button" = "Gastmodus";
+"auth_login_show_button" = "ANZEIGEN";
+"auth_login_hide_button" = "AUSBLENDEN";
+"auth_login_email_invalide" = "E-Mail ist ungültig";
+"auth_login_password_invalide" = "Passwort ist ungültig";
+"auth_login_error_alert_title" = "Anmeldefehler";
+"auth_login_error_alert_ok" = "OK";
+"auth_login_error_alert_cancel" = "Erneut versuchen";
+"auth_login_dont_have_account" = "Noch kein Konto?";
+"auth_login_sign_up_button" = "Registrieren";
+"auth_login_welcome_back" = "Willkommen zurück!";
+"auth_login_forgot_pass_button" = "Passwort vergessen?";
+
+// Register
+"auth_register_create_account" = "Konto erstellen";
+"auth_register_name_placeholder" = "Name";
+"auth_register_email_placeholder" = "E-Mail";
+"auth_register_password_placeholder" = "Passwort";
+"auth_register_repeat_password_placeholder" = "Passwort wiederholen";
+"auth_register_button" = "Registrieren";
+"auth_register_email_invalide" = "E-Mail ist ungültig";
+"auth_register_repeat_pass_invalide" = "Wiederholtes Passwort ist ungültig";
+"auth_register_password_invalide" = "Passwort ist ungültig";
+"auth_register_pass_not_math" = "Passwörter stimmen nicht überein";
+"auth_register_alert_success_title" = "Erfolg";
+"auth_register_alert_success_message" = "Dein Konto wurde erfolgreich erstellt";
+"auth_register_already_have_account" = "Du hast bereits ein Konto?";
+"auth_register_error_alert_title" = "Registrierungsfehler";
+"auth_register_error_alert_cancel" = "Erneut versuchen";
+
+// Reset
+"auth_reset_title" = "Passwort zurücksetzen";
+"auth_reset_button" = "Passwort zurücksetzen";
+"auth_reset_email_placeholder" = "E-Mail";
+"auth_reset_cancel_button" = "Abbrechen";
+"auth_reset_email_invalide" = "E-Mail ist ungültig";
+"authResetDescription" = "Gib deine E-Mail-Adresse ein\nund wir senden dir einen Link,\num dein Passwort zurückzusetzen.\nBitte überprüfe auch deinen Spam-Ordner.";
+"auth_reset_error_alert_title" = "Fehler";
+"auth_reset_error_alert_cancel" = "Abbrechen";
+"auth_reset_error_alert_ok" = "Abbrechen";
+"auth_reset_success_alert_title" = "Erfolg";
+"auth_reset_success_alert_message" = "Überprüfe deine E-Mails";
+"auth_reset_success_alert_ok" = "OK";
+
+// Pin
+"auth_pin_enter_passcode" = "Code eingeben";
+"auth_pin_confirm_pin" = "PIN bestätigen";
+"auth_pin_create_pin" = "PIN erstellen";
+"auth_pin_create_new_passcode" = "Neuen Code erstellen";
+"auth_pin_success" = "Erfolg!";
+"auth_pin_face_id_failed" = "Face ID nicht erkannt";
+"auth_pin_authenticating" = "Authentifizierung...";
+"auth_pin_incorrect_passcode" = "Falscher Code";
+
+//MARK: - Main
+
+// Home
+"main_home_datails_button_title" = "Details anzeigen";
+"main_home_section_button_title" = "Alle";
+"main_home_cell_show_button_title" = "Alle anzeigen";
+"main_home_alert_connection_title_error" = "Überprüfe deine Internetverbindung";
+"main_home_alert_connection_subtitle_error" = "Wenn du ein VPN verwendest, versuche es zu deaktivieren oder zu einem anderen Server/Land zu wechseln.";
+"main_home_alert_cancel" = "Abbrechen";
+"main_home_alert_try_again" = "Erneut versuchen";
+
+// Search
+"main_search_title" = "Suche";
+"main_search_filter_title" = "Filter";
+"main_search_error_alert_title" = "Fehler";
+"main_search_error_alert_try_again_title" = "Erneut versuchen";
+"main_search_error_alert_try_cancel_title" = "Abbrechen";
+
+// Profile
+"main_profile_stats_favorites" = "Favoriten";
+"main_profile_stats_waiting" = "Wartend";
+"main_profile_stats_marked" = "Markiert";
+"main_profile_menu_theme" = "Thema";
+"main_menu_notifications" = "Benachrichtigungen";
+"main_menu_rate_app" = "App bewerten";
+"main_menu_support" = "Support";
+"main_logout_button" = "Abmelden";
+
+// Details
+"main_details_release_date" = "Veröffentlichungsdatum";
+
+// Bookmark
+"main_bookmark_nav_title" = "Lesezeichen";
+"main_bookmark_no_bookmarks_title" = "Noch keine Lesezeichen";
+"main_bookmark_no_bookmarks_subtitle" = "Elemente, die du als Lesezeichen markierst, erscheinen hier.";
+
+// Favorites
+"main_favorites_no_favorites_title" = "Noch keine Favoriten";
+"main_favorites_no_favorites_subtitle" = "Elemente, die du als Favoriten markierst, erscheinen hier.";
+
+// Notifications
+"main_notifications" = "Benachrichtigungen";
+"main_no_notifications" = "Keine Benachrichtigungen";
+"main_notification_error_sub_title" = "Benachrichtigungen über abonnierte Filmveröffentlichungen erscheinen hier.";
+"main_notifications_waitings" = "Ausstehend";
+"main_notifications_delivered" = "Zugestellt";
+
+// Paywall
+"paywall_title" = "Verfolge Filme,\nSerien und Stars";
+"paywall_subtitle" = "Erhalte Veröffentlichungsbenachrichtigungen, entdecke Trends, sieh dir Details an und speichere deine Favoriten.";
+"paywall_feature_releases" = "Kommende Veröffentlichungen abonnieren";
+"paywall_feature_notifications" = "Benachrichtigungen erhalten";
+"paywall_feature_trending" = "Trendfilme und -serien entdecken";
+"paywall_feature_favorites" = "Schauspieler, Filme und Serien liken";
+"paywall_continue" = "Fortfahren";
+"paywall_restore" = "Wiederherstellen";
+"paywall_terms" = "Bedingungen";
+"paywall_privacy" = "Datenschutz";
+"paywall_disclaimer" = "Diese App bietet kein Streaming von Filmen oder Serien an.";

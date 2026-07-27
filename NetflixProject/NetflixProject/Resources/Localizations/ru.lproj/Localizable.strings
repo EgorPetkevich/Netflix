@@ -1,0 +1,134 @@
+
+//MARK: - Onboarding
+
+// First Page
+"onb_first_page_title" = "Хотите присоединиться к NetflixDB?";
+"onb_first_page_subtitle" = "Вы не можете зарегистрироваться в \n приложении NetflixDB. Мы знаем, \n что это неудобно. После создания \n аккаунта вы сможете пользоваться \n приложением. \n Листайте > чтобы узнать больше";
+"onb_first_page_sign_in_button_title" = "ВОЙТИ";
+
+// Second Page
+"onb_second_page_title" = "Именно!";
+"onb_second_page_subtitle" = "Пожалуйста, перейдите на сайт \n MovieDB и создайте аккаунт там";
+"onb_second_page_sing_in_button_title" = "ВОЙТИ";
+"onb_second_page_sign_up_button_title" = "РЕГИСТРАЦИЯ";
+
+
+//MARK: - Auth
+
+// Login
+"auth_login_email_placeholder" = "E-mail";
+"auth_login_password_placeholder" = "Пароль";
+"auth_login_button" = "Войти";
+"auth_login_guest_button" = "Гостевой режим";
+"auth_login_show_button" = "ПОКАЗАТЬ";
+"auth_login_hide_button" = "СКРЫТЬ";
+"auth_login_email_invalide" = "Некорректный email";
+"auth_login_password_invalide" = "Некорректный пароль";
+"auth_login_error_alert_title" = "Ошибка входа";
+"auth_login_error_alert_ok" = "Ок";
+"auth_login_error_alert_cancel" = "Повторить";
+"auth_login_dont_have_account" = "Нет аккаунта?";
+"auth_login_sign_up_button" = "Регистрация";
+"auth_login_welcome_back" = "С возвращением!";
+"auth_login_forgot_pass_button" = "Забыли пароль?";
+
+// Register
+"auth_register_create_account" = "Создать аккаунт";
+"auth_register_name_placeholder" = "Имя";
+"auth_register_email_placeholder" = "E-mail";
+"auth_register_password_placeholder" = "Пароль";
+"auth_register_repeat_password_placeholder" = "Повторите пароль";
+"auth_register_button" = "Регистрация";
+"auth_register_email_invalide" = "Некорректный email";
+"auth_register_repeat_pass_invalide" = "Некорректный повторный пароль";
+"auth_register_password_invalide" = "Некорректный пароль";
+"auth_register_pass_not_math" = "Пароли не совпадают";
+"auth_register_alert_success_title" = "Успешно";
+"auth_register_alert_success_message" = "Ваш аккаунт успешно создан";
+"auth_register_already_have_account" = "Уже есть аккаунт?";
+"auth_register_error_alert_title" = "Ошибка регистрации";
+"auth_register_error_alert_cancel" = "Повторить";
+
+// Reset
+"auth_reset_title" = "Сброс пароля";
+"auth_reset_button" = "Сбросить пароль";
+"auth_reset_email_placeholder" = "E-mail";
+"auth_reset_cancel_button" = "Отмена";
+"auth_reset_email_invalide" = "Некорректный email";
+"authResetDescription" = "Введите ваш email,\nи мы отправим ссылку\nдля сброса пароля.\nПроверьте входящие сообщения\nи папку спам при необходимости.";
+"auth_reset_error_alert_title" = "Ошибка";
+"auth_reset_error_alert_cancel" = "Отмена";
+"auth_reset_error_alert_ok" = "Ок";
+"auth_reset_success_alert_title" = "Успешно";
+"auth_reset_success_alert_message" = "Проверьте вашу почту";
+"auth_reset_success_alert_ok" = "ОК";
+
+// Pin
+"auth_pin_enter_passcode" = "Введите PIN-код";
+"auth_pin_confirm_pin" = "Подтвердите PIN-код";
+"auth_pin_create_pin" = "Создать PIN-код";
+"auth_pin_create_new_passcode" = "Создайте новый PIN-код";
+"auth_pin_success" = "Успешно!";
+"auth_pin_face_id_failed" = "Face ID не распознан";
+"auth_pin_authenticating" = "Аутентификация...";
+"auth_pin_incorrect_passcode" = "Неверный PIN-код";
+
+//MARK: - Main
+
+// Home
+"main_home_datails_button_title" = "Подробнее";
+"main_home_section_button_title" = "Все";
+"main_home_cell_show_button_title" = "Показать все";
+"main_home_alert_connection_title_error" = "Проверьте подключение к интернету";
+"main_home_alert_connection_subtitle_error" = "Если вы используете VPN, попробуйте отключить его или выбрать другой сервер/страну.";
+"main_home_alert_cancel" = "Отмена";
+"main_home_alert_try_again" = "Повторить";
+
+// Search
+"main_search_title" = "Поиск";
+"main_search_filter_title" = "Фильтр";
+"main_search_error_alert_title" = "Ошибка";
+"main_search_error_alert_try_again_title" = "Повторить";
+"main_search_error_alert_try_cancel_title" = "Отмена";
+
+// Profile
+"main_profile_stats_favorites" = "Избранное";
+"main_profile_stats_waiting" = "Ожидание";
+"main_profile_stats_marked" = "Сохранено";
+"main_profile_menu_theme" = "Тема";
+"main_menu_notifications" = "Уведомления";
+"main_menu_rate_app" = "Оценить приложение";
+"main_menu_support" = "Поддержка";
+"main_logout_button" = "Выйти";
+
+// Details
+"main_details_release_date" = "Дата релиза";
+
+// Bookmark
+"main_bookmark_nav_title" = "Закладки";
+"main_bookmark_no_bookmarks_title" = "Закладок пока нет";
+"main_bookmark_no_bookmarks_subtitle" = "Элементы, добавленные в закладки, появятся здесь.";
+
+// Favorites
+"main_favorites_no_favorites_title" = "Избранного пока нет";
+"main_favorites_no_favorites_subtitle" = "Элементы, добавленные в избранное, появятся здесь.";
+
+// Notifications
+"main_notifications" = "Уведомления";
+"main_no_notifications" = "Нет уведомлений";
+"main_notification_error_sub_title" = "Уведомления о выходе фильмов появятся здесь.";
+"main_notifications_waitings" = "Ожидаемые";
+"main_notifications_delivered" = "Доставленные";
+
+// Paywall
+"paywall_title" = "Следите за фильмами,\nсериалами и звездами";
+"paywall_subtitle" = "Получайте уведомления о релизах, следите за трендами, изучайте детали и сохраняйте избранное.";
+"paywall_feature_releases" = "Подписка на будущие релизы";
+"paywall_feature_notifications" = "Уведомления о выходе";
+"paywall_feature_trending" = "Популярные фильмы и сериалы";
+"paywall_feature_favorites" = "Лайки актерам, фильмам и сериалам";
+"paywall_continue" = "Продолжить";
+"paywall_restore" = "Восстановить";
+"paywall_terms" = "Условия";
+"paywall_privacy" = "Конфиденциальность";
+"paywall_disclaimer" = "Приложение не предоставляет просмотр фильмов и сериалов.";

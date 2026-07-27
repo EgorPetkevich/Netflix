@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "43E44CB1-AA3A-46E8-9CA9-7146D90BFD05",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:NetflixProject.xcodeproj",
+          "identifier" : "F24E142D2F755388001A9BCD",
+          "name" : "NetflixProject"
+        },
+        {
+          "containerPath" : "container:NetflixProject.xcodeproj",
+          "identifier" : "F2C51D9F2F9F97D800E34371",
+          "name" : "Storage"
+        }
+      ]
+    },
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:NetflixProject.xcodeproj",
+      "identifier" : "F24E142D2F755388001A9BCD",
+      "name" : "NetflixProject"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:NetflixProject.xcodeproj",
+        "identifier" : "F26479072FE157770004FE23",
+        "name" : "NetflixProjectTests"
+      }
+    }
+  ],
+  "version" : 1
+}

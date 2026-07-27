@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F23BA7162F88E6010035D8F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F23BA7152F88E6010035D8F8 /* Kingfisher */; };
+		F25123EB2F9640E300324F1D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F25123EA2F9640E300324F1D /* ComposableArchitecture */; };
+		F26AB3902F758C4500554A16 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB38F2F758C4500554A16 /* SnapKit */; };
+		F26AB3932F758C5B00554A16 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB3922F758C5B00554A16 /* RxCocoa */; };
+		F26AB3952F758C5B00554A16 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB3942F758C5B00554A16 /* RxSwift */; };
+		F297DD932FA8A86F00A12758 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F297DD922FA8A86F00A12758 /* FirebaseAuth */; };
+		F297DD952FA8A86F00A12758 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F297DD942FA8A86F00A12758 /* FirebaseCore */; };
+		F297DD972FA8A86F00A12758 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F297DD962FA8A86F00A12758 /* FirebaseDatabase */; };
+		F297DD992FA8A86F00A12758 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F297DD982FA8A86F00A12758 /* FirebaseFirestore */; };
+		F297DD9B2FA8A86F00A12758 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F297DD9A2FA8A86F00A12758 /* FirebaseStorage */; };
+		F2AC00192F7D0B6000FA3E23 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F2AC00182F7D0B6000FA3E23 /* GoogleSignIn */; };
+		F2AC001B2F7D0B6000FA3E23 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2AC001A2F7D0B6000FA3E23 /* GoogleSignInSwift */; };
+		F2ACFFA52F7BFDD700FA3E23 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACFFA42F7BFDD700FA3E23 /* Lottie */; };
+		F2C51DA62F9F97D800E34371 /* Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C51DA02F9F97D800E34371 /* Storage.framework */; };
+		F2C51DA82F9F97D800E34371 /* Storage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2C51DA02F9F97D800E34371 /* Storage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F21DDC522FF537CF001100D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24E14262F755388001A9BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24E142D2F755388001A9BCD;
+			remoteInfo = NetflixProject;
+		};
+		F264790C2FE157770004FE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24E14262F755388001A9BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24E142D2F755388001A9BCD;
+			remoteInfo = NetflixProject;
+		};
+		F2C51DA42F9F97D800E34371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24E14262F755388001A9BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C51D9F2F9F97D800E34371;
+			remoteInfo = Storage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2C51DA72F9F97D800E34371 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2C51DA82F9F97D800E34371 /* Storage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F21DDC4C2FF537CF001100D2 /* NetflixProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24E142E2F755388001A9BCD /* NetflixProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26479082FE157770004FE23 /* NetflixProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C51DA02F9F97D800E34371 /* Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F23BBBB92FF54FCC0015D048 /* Exceptions for "NetflixProject" folder in "NetflixProjectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppLaunch/AccessibilityIdentifiers/AccessibilityIdentifiers.swift,
+				AppLaunch/Arguments/AppLaunchArguments.swift,
+			);
+			target = F21DDC4B2FF537CF001100D2 /* NetflixProjectUITests */;
+		};
+		F26479422FE2CE580004FE23 /* Exceptions for "NetflixProjectTests" folder in "NetflixProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TestPlans/NetflixProject.xctestplan,
+			);
+			target = F26479072FE157770004FE23 /* NetflixProjectTests */;
+		};
+		F2ACFB342F76823700FA3E23 /* Exceptions for "NetflixProject" folder in "NetflixProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = F24E142D2F755388001A9BCD /* NetflixProject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F21DDC4D2FF537CF001100D2 /* NetflixProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetflixProjectUITests;
+			sourceTree = "<group>";
+		};
+		F24E14302F755388001A9BCD /* NetflixProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F2ACFB342F76823700FA3E23 /* Exceptions for "NetflixProject" folder in "NetflixProject" target */,
+				F23BBBB92FF54FCC0015D048 /* Exceptions for "NetflixProject" folder in "NetflixProjectUITests" target */,
+			);
+			path = NetflixProject;
+			sourceTree = "<group>";
+		};
+		F26479092FE157770004FE23 /* NetflixProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F26479422FE2CE580004FE23 /* Exceptions for "NetflixProjectTests" folder in "NetflixProjectTests" target */,
+			);
+			path = NetflixProjectTests;
+			sourceTree = "<group>";
+		};
+		F2C51DA12F9F97D800E34371 /* Storage */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21DDC492FF537CF001100D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E142B2F755388001A9BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ACFFA52F7BFDD700FA3E23 /* Lottie in Frameworks */,
+				F297DD992FA8A86F00A12758 /* FirebaseFirestore in Frameworks */,
+				F297DD932FA8A86F00A12758 /* FirebaseAuth in Frameworks */,
+				F297DD952FA8A86F00A12758 /* FirebaseCore in Frameworks */,
+				F26AB3952F758C5B00554A16 /* RxSwift in Frameworks */,
+				F2C51DA62F9F97D800E34371 /* Storage.framework in Frameworks */,
+				F25123EB2F9640E300324F1D /* ComposableArchitecture in Frameworks */,
+				F297DD972FA8A86F00A12758 /* FirebaseDatabase in Frameworks */,
+				F2AC001B2F7D0B6000FA3E23 /* GoogleSignInSwift in Frameworks */,
+				F26AB3932F758C5B00554A16 /* RxCocoa in Frameworks */,
+				F23BA7162F88E6010035D8F8 /* Kingfisher in Frameworks */,
+				F297DD9B2FA8A86F00A12758 /* FirebaseStorage in Frameworks */,
+				F26AB3902F758C4500554A16 /* SnapKit in Frameworks */,
+				F2AC00192F7D0B6000FA3E23 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26479052FE157770004FE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C51D9D2F9F97D800E34371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24E14252F755388001A9BCD = {
+			isa = PBXGroup;
+			children = (
+				F24E14302F755388001A9BCD /* NetflixProject */,
+				F2C51DA12F9F97D800E34371 /* Storage */,
+				F26479092FE157770004FE23 /* NetflixProjectTests */,
+				F21DDC4D2FF537CF001100D2 /* NetflixProjectUITests */,
+				F24E142F2F755388001A9BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24E142F2F755388001A9BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24E142E2F755388001A9BCD /* NetflixProject.app */,
+				F2C51DA02F9F97D800E34371 /* Storage.framework */,
+				F26479082FE157770004FE23 /* NetflixProjectTests.xctest */,
+				F21DDC4C2FF537CF001100D2 /* NetflixProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2C51D9B2F9F97D800E34371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F21DDC4B2FF537CF001100D2 /* NetflixProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21DDC562FF537CF001100D2 /* Build configuration list for PBXNativeTarget "NetflixProjectUITests" */;
+			buildPhases = (
+				F21DDC482FF537CF001100D2 /* Sources */,
+				F21DDC492FF537CF001100D2 /* Frameworks */,
+				F21DDC4A2FF537CF001100D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21DDC532FF537CF001100D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F21DDC4D2FF537CF001100D2 /* NetflixProjectUITests */,
+			);
+			name = NetflixProjectUITests;
+			packageProductDependencies = (
+			);
+			productName = NetflixProjectUITests;
+			productReference = F21DDC4C2FF537CF001100D2 /* NetflixProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F24E142D2F755388001A9BCD /* NetflixProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24E14412F75538A001A9BCD /* Build configuration list for PBXNativeTarget "NetflixProject" */;
+			buildPhases = (
+				F24E142A2F755388001A9BCD /* Sources */,
+				F24E142B2F755388001A9BCD /* Frameworks */,
+				F24E142C2F755388001A9BCD /* Resources */,
+				F289D6A02F9B9C96008E3C0D /* ShellScript */,
+				F2C51DA72F9F97D800E34371 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C51DA52F9F97D800E34371 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24E14302F755388001A9BCD /* NetflixProject */,
+			);
+			name = NetflixProject;
+			packageProductDependencies = (
+				F26AB38F2F758C4500554A16 /* SnapKit */,
+				F26AB3922F758C5B00554A16 /* RxCocoa */,
+				F26AB3942F758C5B00554A16 /* RxSwift */,
+				F2ACFFA42F7BFDD700FA3E23 /* Lottie */,
+				F2AC00182F7D0B6000FA3E23 /* GoogleSignIn */,
+				F2AC001A2F7D0B6000FA3E23 /* GoogleSignInSwift */,
+				F23BA7152F88E6010035D8F8 /* Kingfisher */,
+				F25123EA2F9640E300324F1D /* ComposableArchitecture */,
+				F297DD922FA8A86F00A12758 /* FirebaseAuth */,
+				F297DD942FA8A86F00A12758 /* FirebaseCore */,
+				F297DD962FA8A86F00A12758 /* FirebaseDatabase */,
+				F297DD982FA8A86F00A12758 /* FirebaseFirestore */,
+				F297DD9A2FA8A86F00A12758 /* FirebaseStorage */,
+			);
+			productName = NetflixProject;
+			productReference = F24E142E2F755388001A9BCD /* NetflixProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26479072FE157770004FE23 /* NetflixProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26479102FE157770004FE23 /* Build configuration list for PBXNativeTarget "NetflixProjectTests" */;
+			buildPhases = (
+				F26479042FE157770004FE23 /* Sources */,
+				F26479052FE157770004FE23 /* Frameworks */,
+				F26479062FE157770004FE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F264790D2FE157770004FE23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F26479092FE157770004FE23 /* NetflixProjectTests */,
+			);
+			name = NetflixProjectTests;
+			packageProductDependencies = (
+			);
+			productName = NetflixProjectTests;
+			productReference = F26479082FE157770004FE23 /* NetflixProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2C51D9F2F9F97D800E34371 /* Storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C51DAB2F9F97D800E34371 /* Build configuration list for PBXNativeTarget "Storage" */;
+			buildPhases = (
+				F2C51D9B2F9F97D800E34371 /* Headers */,
+				F2C51D9C2F9F97D800E34371 /* Sources */,
+				F2C51D9D2F9F97D800E34371 /* Frameworks */,
+				F2C51D9E2F9F97D800E34371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F2C51DA12F9F97D800E34371 /* Storage */,
+			);
+			name = Storage;
+			packageProductDependencies = (
+			);
+			productName = Storage;
+			productReference = F2C51DA02F9F97D800E34371 /* Storage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24E14262F755388001A9BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F21DDC4B2FF537CF001100D2 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F24E142D2F755388001A9BCD;
+					};
+					F24E142D2F755388001A9BCD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					F26479072FE157770004FE23 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F24E142D2F755388001A9BCD;
+					};
+					F2C51D9F2F9F97D800E34371 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = F24E14292F755388001A9BCD /* Build configuration list for PBXProject "NetflixProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				es,
+				fr,
+				de,
+			);
+			mainGroup = F24E14252F755388001A9BCD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F26AB38E2F758C4500554A16 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F26AB3912F758C5B00554A16 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F2ACFFA32F7BFDD700FA3E23 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				F2AC00172F7D0B6000FA3E23 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				F23BA7142F88E6010035D8F8 /* XCRemoteSwiftPackageReference "kingfisher" */,
+				F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F24E142F2F755388001A9BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24E142D2F755388001A9BCD /* NetflixProject */,
+				F2C51D9F2F9F97D800E34371 /* Storage */,
+				F26479072FE157770004FE23 /* NetflixProjectTests */,
+				F21DDC4B2FF537CF001100D2 /* NetflixProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21DDC4A2FF537CF001100D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E142C2F755388001A9BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26479062FE157770004FE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C51D9E2F9F97D800E34371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F289D6A02F9B9C96008E3C0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nSWIFTLINT_PATH=\"/opt/homebrew/bin/swiftlint\"\nCONFIG_PATH=\"${SRCROOT}/../.swiftlint.yml\"\n\nif [ -f \"$SWIFTLINT_PATH\" ]; then\n  \"$SWIFTLINT_PATH\" --config \"$CONFIG_PATH\" --fix\n  \"$SWIFTLINT_PATH\" --config \"$CONFIG_PATH\"\nelif which swiftlint >/dev/null; then\n  swiftlint --config \"$CONFIG_PATH\" --fix\n  swiftlint --config \"$CONFIG_PATH\"\nelse\n  echo \"error: SwiftLint not found at $SWIFTLINT_PATH or in system\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21DDC482FF537CF001100D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E142A2F755388001A9BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26479042FE157770004FE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C51D9C2F9F97D800E34371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F21DDC532FF537CF001100D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24E142D2F755388001A9BCD /* NetflixProject */;
+			targetProxy = F21DDC522FF537CF001100D2 /* PBXContainerItemProxy */;
+		};
+		F264790D2FE157770004FE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24E142D2F755388001A9BCD /* NetflixProject */;
+			targetProxy = F264790C2FE157770004FE23 /* PBXContainerItemProxy */;
+		};
+		F2C51DA52F9F97D800E34371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C51D9F2F9F97D800E34371 /* Storage */;
+			targetProxy = F2C51DA42F9F97D800E34371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F21DDC542FF537CF001100D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = NetflixProject;
+			};
+			name = Debug;
+		};
+		F21DDC552FF537CF001100D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = NetflixProject;
+			};
+			name = Release;
+		};
+		F24E14422F75538A001A9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Light AppIcon-Dark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NetflixProject/NetflixProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetflixProject/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F24E14432F75538A001A9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Light AppIcon-Dark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NetflixProject/NetflixProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetflixProject/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F24E14442F75538A001A9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F24E14452F75538A001A9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F264790E2FE157770004FE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetflixProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetflixProject";
+			};
+			name = Debug;
+		};
+		F264790F2FE157770004FE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.NetflixProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetflixProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetflixProject";
+			};
+			name = Release;
+		};
+		F2C51DA92F9F97D800E34371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.Storage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2C51DAA2F9F97D800E34371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.Storage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21DDC562FF537CF001100D2 /* Build configuration list for PBXNativeTarget "NetflixProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21DDC542FF537CF001100D2 /* Debug */,
+				F21DDC552FF537CF001100D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24E14292F755388001A9BCD /* Build configuration list for PBXProject "NetflixProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E14442F75538A001A9BCD /* Debug */,
+				F24E14452F75538A001A9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24E14412F75538A001A9BCD /* Build configuration list for PBXNativeTarget "NetflixProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E14422F75538A001A9BCD /* Debug */,
+				F24E14432F75538A001A9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26479102FE157770004FE23 /* Build configuration list for PBXNativeTarget "NetflixProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264790E2FE157770004FE23 /* Debug */,
+				F264790F2FE157770004FE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C51DAB2F9F97D800E34371 /* Build configuration list for PBXNativeTarget "Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C51DA92F9F97D800E34371 /* Debug */,
+				F2C51DAA2F9F97D800E34371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F23BA7142F88E6010035D8F8 /* XCRemoteSwiftPackageReference "kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.8.1;
+			};
+		};
+		F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.5;
+			};
+		};
+		F26AB38E2F758C4500554A16 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		F26AB3912F758C5B00554A16 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.10.2;
+			};
+		};
+		F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+		F2AC00172F7D0B6000FA3E23 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		F2ACFFA32F7BFDD700FA3E23 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F23BA7152F88E6010035D8F8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F23BA7142F88E6010035D8F8 /* XCRemoteSwiftPackageReference "kingfisher" */;
+			productName = Kingfisher;
+		};
+		F25123EA2F9640E300324F1D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F25123E92F9640E300324F1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F26AB38F2F758C4500554A16 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F26AB38E2F758C4500554A16 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F26AB3922F758C5B00554A16 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F26AB3912F758C5B00554A16 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F26AB3942F758C5B00554A16 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F26AB3912F758C5B00554A16 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F297DD922FA8A86F00A12758 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F297DD942FA8A86F00A12758 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F297DD962FA8A86F00A12758 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F297DD982FA8A86F00A12758 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F297DD9A2FA8A86F00A12758 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F297DD912FA8A86F00A12758 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F2AC00182F7D0B6000FA3E23 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2AC00172F7D0B6000FA3E23 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F2AC001A2F7D0B6000FA3E23 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2AC00172F7D0B6000FA3E23 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		F2ACFFA42F7BFDD700FA3E23 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2ACFFA32F7BFDD700FA3E23 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F24E14262F755388001A9BCD /* Project object */;
+}

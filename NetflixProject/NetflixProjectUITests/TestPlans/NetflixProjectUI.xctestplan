@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "CC09F29B-1DB2-403A-B0CE-26C63CEB53C5",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:NetflixProject.xcodeproj",
+        "identifier" : "F21DDC4B2FF537CF001100D2",
+        "name" : "NetflixProjectUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
